@@ -22,11 +22,11 @@ export default function NavBar(){
             Lin Lin
             </Link>
 
-             <Link href= '/resume' className="text-2xl font-bold text-gray-900">
+             <Link href= '/Resume' className="text-2xl font-bold text-gray-900">
             Resume
             </Link>
 
-             <Link href= '/project' className="text-2xl font-bold text-gray-900">
+             <Link href= '/Project' className="text-2xl font-bold text-gray-900">
             Projects
             </Link>
 
