@@ -1,9 +1,10 @@
 "use client";
 
-import{useState} from "react"; 
 import Link from "next/link" //Client side navigation
-import { usePathname } from "next/navigation"; //Hook to get current route
+import Image from "next/image";
+import homeIcon from "./home-icon-silhouette.png"
 
+/*<a href="https://www.flaticon.com/free-icons/home" title="home icons">Home icons created by Magnific - Flaticon</a>*/
 const navLinks = [
     { name: "Home", href: "/"},
     { name: "Resume", href: "/resume"},
@@ -12,14 +13,14 @@ const navLinks = [
 ]
 
 export default function NavBar(){
-    const pathname = usePathname();
-    const[isOpen, setIsOpen] = useState(false);
+
 
     return(
     <nav className = "w-full bg-white">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-8 py-5">
             <Link href= '/' className="text-2xl font-bold text-gray-900">
-            Lin Lin
+            <Image src = {homeIcon} alt = "Home Icon" className = "w-10"/>
+            
             </Link>
 
              <Link href= '/Resume' className="text-2xl font-bold text-gray-900">
