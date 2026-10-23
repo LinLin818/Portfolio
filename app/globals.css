@@ -26,6 +26,9 @@ body {
 }
 
 
-html,body{
-  overscroll-behavior: none;
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior-x: none;
 }
