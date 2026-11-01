@@ -6,7 +6,7 @@ export default function Home() {
     <>
     <div className="flex items-center justify-around gap-5">
       <div className = "p-20">
-        <Image src={LinLin} alt="Lin Lin" className="w-150 rounded-2xl" />
+        <Image src={LinLin} alt="Lin Lin" className="w-350 rounded-2xl" />
       </div>
       <div className="text-black-950 bg-amber-100 m-20 rounded-2xl p-10 max-w-xl">
   <p className='text-xs'>Hi! My name is Lin Lin. I am currently a junior at Drexel pursuing Computer Science.
@@ -20,22 +20,30 @@ export default function Home() {
 
     </div>
 
-    <div className = "flex flex-col items-center justify-around bg-amber-50 p-10 m-20 rounded-2xl h-32">
+    <div className = "flex flex-col items-center justify-around bg-amber-50 p-10 m-20 rounded-2xl h-48">
     <div className='center-text'>5 Year goals</div>
-      <div className = "m-5"><p>In 5 years, I will be a senior software engineer.</p></div>
+      <div className = "m-5">
+        <p>In 5 years, I will be a senior software engineer at a company that has million of users. I will be pursuing my passion to help businesses design sustainable system designs. I will also be mentoring my juniors to help them learn how to be a better engineer to enable business grow.</p>
+  </div>
   
-  
+     
+      
     
     </div>
 
-    <div className = " ">
-      <div className = "">
-        
-      </div>
-    </div>
-    <Footer/>
-
    
+        {/*
+
+    <div className = "flex flex-col items-center justify-around bg-amber-50 p-10 m-20 rounded-2xl h-32">
+      <div className='center-text'>Hobbies</div>
+      <div className = "m-5">
+        <p></p>
+        
+  </div>
+    </div>
+  {/*  <Footer/> 
+
+   */}
     </>
   );
 
